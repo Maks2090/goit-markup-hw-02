@@ -1,0 +1,102 @@
+/* :root {
+  --primary-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-color: #2196f3;
+  --write-text-color: #ffffff;
+} */
+
+/* hero */
+
+.hero {
+  background-color: var(--black-bg);
+}
+
+.hero-title {
+  color: var(--write-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-link {
+  color: var(--write-text-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+/* section */
+
+.section-title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section-text {
+  color: var(--second-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* section 2 */
+
+.section .central-title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.command {
+  background-color: var(--tint-write-bg);
+}
+
+.command-title {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.command-text {
+  color: var(--second-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
